@@ -1,0 +1,12 @@
+{
+  "name": "handson-docker",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/cchampou/handson-docker",
+  "author": "cchampou <clement@champouillon.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
