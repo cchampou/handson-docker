@@ -8,5 +8,12 @@
   "private": true,
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "scripts": {
+    "docker": "docker build -t node-example . && docker run -d -p 80:80 -p 5000:5000 node-example",
+    "start": "pm2 start index.js"
+  },
+  "devDependencies": {
+    "pm2": "^3.5.1"
   }
 }
